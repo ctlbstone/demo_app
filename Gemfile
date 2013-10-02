@@ -6,20 +6,20 @@ gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
 group :development do
-	gem 'sqlite3', '1.3.5'
+	gem 'sqlite3', '1.3.8'
 end
 
 group :assets do
-	gem 'sass-rails', '~> 4.0.0'
-	gem 'uglifier', '>= 1.3.0'
-	gem 'coffee-rails', '~> 4.0.0'
+	gem 'sass-rails'
+	gem 'uglifier'
+	gem 'coffee-rails'
 end
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'turbolinks'
 # Use jquery as the JavaScript library
-gem 'jquery-rails' 
+gem 'jquery-rails' , '3.0.4'
 
 group :production do
   gem "pg", '0.12.2'
